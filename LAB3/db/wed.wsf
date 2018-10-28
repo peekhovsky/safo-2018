@@ -23,8 +23,8 @@ applicable agreement for further details.
 VECTOR("C:/Users/rosti/Documents/GitHub/safo-2018/LAB3/LAB3.vwf")
 {
 	ZOOM{
-		ZBEGIN = 726222;
-		ZEND = 1000000;
+		ZBEGIN = 159783;
+		ZEND = 464687;
 		NUMERATOR = 761;
 		DENOMINATOR = 241700;
 		TOP_INDEX = 0;
