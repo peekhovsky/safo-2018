@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="LAB2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB2|lpm_counter1:inst|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_4pi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB2|lpm_counter2:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_d4i.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

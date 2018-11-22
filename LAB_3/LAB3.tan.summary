@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 4.728 ns
+From           : ROM/RAM_INPUT
+To             : lpm_ram_io:inst2|altram:sram|altsyncram:ram_block|altsyncram_17a1:auto_generated|ram_block1a0~porta_datain_reg1
+From Clock     : --
+To Clock       : CLK_INPUT
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 11.144 ns
+From           : lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[2]~DUPLICATE
+To             : DATA_BUS_OUTPUT[2]
+From Clock     : CLK_INPUT
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 10.798 ns
+From           : ROM/RAM_INPUT
+To             : DATA_BUS_OUTPUT[2]
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : -0.113 ns
+From           : ROM/RAM_INPUT
+To             : lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[5]
+From Clock     : --
+To Clock       : CLK_INPUT
+Failed Paths   : 0
+
+Type           : Clock Setup: 'CLK_INPUT'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 196.97 MHz ( period = 5.077 ns )
+From           : lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[1]~DUPLICATE
+To             : lpm_ram_io:inst2|altram:sram|altsyncram:ram_block|altsyncram_17a1:auto_generated|ram_block1a0~porta_datain_reg1
+From Clock     : CLK_INPUT
+To Clock       : CLK_INPUT
+Failed Paths   : 0
+
+Type           : Clock Hold: 'CLK_INPUT'
+Slack          : Not operational: Clock Skew > Data Delay
+Required Time  : None
+Actual Time    : N/A
+From           : lpm_rom1:inst1|altsyncram:altsyncram_component|altsyncram_fk71:auto_generated|q_a[3]
+To             : lpm_dff0:inst6|lpm_ff:lpm_ff_component|dffs[3]
+From Clock     : CLK_INPUT
+To Clock       : CLK_INPUT
+Failed Paths   : 217
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 217
+
+--------------------------------------------------------------------------------------
+

@@ -1,0 +1,10 @@
+(
+	AgeB_sig
+) = lpm_compare3	(
+	.clock = clock_sig,
+	.dataa[] = dataa_sig[],
+	.datab[] = datab_sig[]
+)
+RETURNS (
+	.AgeB
+);
