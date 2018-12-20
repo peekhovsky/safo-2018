@@ -1,0 +1,1457 @@
+$comment
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+$end
+
+$date 
+  12/20/2018 01:43:22 
+$end
+$version 
+ QUARTUS_VCD_EXPORT 1.0 
+$end
+$timescale
+  1 ps
+$end
+$scope module LAB_67 $end
+$var reg 1 ! clk $end
+$var reg 7 " request_address[6:0] $end
+$var reg 7 # address_bus[6:0] $end
+$var reg 1 $ request $end
+$var reg 4 % output_data[0:3] $end
+$var reg 4 & output_data_from_cache[0:3] $end
+$var reg 1 ' hit $end
+$var reg 1 ( enable_write $end
+$var reg 1 ) pin_name $end
+$var reg 1 * operation0 $end
+$var reg 1 + operation1 $end
+$var reg 1 , operation2 $end
+$var reg 1 - operation3 $end
+$var reg 1 . operation4 $end
+$var reg 1 / operation5 $end
+$var reg 1 0 operation6 $end
+$var reg 1 1 operation7 $end
+$scope module inst $end
+$scope module inst21 $end
+$scope module comp00 $end
+$scope module lpm_compare_component $end
+$scope module auto_generated $end
+$var reg 1 2 aeb_output_dffe0a[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module comp0 $end
+$scope module lpm_compare_component $end
+$scope module auto_generated $end
+$var reg 1 3 aeb_output_dffe0a[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module inst11 $end
+$scope module lpm_counter_component $end
+$scope module auto_generated $end
+$var reg 3 4 safe_q[2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module tag0 $end
+$scope module lpm_ff_component $end
+$var reg 4 5 dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module tag1 $end
+$scope module lpm_ff_component $end
+$var reg 4 6 dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word0 $end
+$scope module lpm_ff_component $end
+$var reg 4 7 dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word1 $end
+$scope module lpm_ff_component $end
+$var reg 4 8 dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word2 $end
+$scope module lpm_ff_component $end
+$var reg 4 9 dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word3 $end
+$scope module lpm_ff_component $end
+$var reg 4 : dffs[3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module inst22 $end
+$scope module comp00 $end
+$scope module lpm_compare_component $end
+$scope module auto_generated $end
+$var reg 1 ; aeb_output_dffe0a[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module comp0 $end
+$scope module lpm_compare_component $end
+$scope module auto_generated $end
+$var reg 1 < aeb_output_dffe0a[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module inst11 $end
+$scope module lpm_counter_component $end
+$scope module auto_generated $end
+$var reg 3 = safe_q[2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module tag0 $end
+$scope module lpm_ff_component $end
+$var reg 4 > dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module tag1 $end
+$scope module lpm_ff_component $end
+$var reg 4 ? dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word0 $end
+$scope module lpm_ff_component $end
+$var reg 4 @ dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word1 $end
+$scope module lpm_ff_component $end
+$var reg 4 A dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word2 $end
+$scope module lpm_ff_component $end
+$var reg 4 B dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word3 $end
+$scope module lpm_ff_component $end
+$var reg 4 C dffs[3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module inst23 $end
+$scope module comp00 $end
+$scope module lpm_compare_component $end
+$scope module auto_generated $end
+$var reg 1 D aeb_output_dffe0a[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module comp0 $end
+$scope module lpm_compare_component $end
+$scope module auto_generated $end
+$var reg 1 E aeb_output_dffe0a[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module inst11 $end
+$scope module lpm_counter_component $end
+$scope module auto_generated $end
+$var reg 3 F safe_q[2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module tag0 $end
+$scope module lpm_ff_component $end
+$var reg 4 G dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module tag1 $end
+$scope module lpm_ff_component $end
+$var reg 4 H dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word0 $end
+$scope module lpm_ff_component $end
+$var reg 4 I dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word1 $end
+$scope module lpm_ff_component $end
+$var reg 4 J dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word2 $end
+$scope module lpm_ff_component $end
+$var reg 4 K dffs[3:0] $end
+$upscope $end
+$upscope $end
+$scope module word3 $end
+$scope module lpm_ff_component $end
+$var reg 4 L dffs[3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module inst $end
+$scope module comp00 $end
+$scope module lpm_compare_component $end
+$scope module auto_generated $end
+$var reg 1 M aeb_output_dffe0a[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module comp0 $end
+$scope module lpm_compare_component $end
+$scope module auto_generated $end
+$var reg 1 N aeb_output_dffe0a[0:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module inst11 $end
+$scope module lpm_counter_component $end
+$scope module auto_generated $end
+$var reg 3 O safe_q[2:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+b0 "
+b0 #
+1$
+bZ %
+bZ &
+0'
+0(
+0)
+1*
+0+
+0,
+0-
+0.
+0/
+00
+01
+b0 2
+b0 3
+b0 4
+b0 5
+b0 6
+b0 7
+b0 8
+b0 9
+b0 :
+b0 ;
+b0 <
+b0 =
+b0 >
+b0 ?
+b0 @
+b0 A
+b0 B
+b0 C
+b0 D
+b0 E
+b0 F
+b0 G
+b0 H
+b0 I
+b0 J
+b0 K
+b0 L
+b0 M
+b0 N
+b0 O
+$end
+#5000
+1!
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#10000
+0!
+#15000
+1!
+b1 #
+b0 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#20000
+0!
+0)
+#25000
+1!
+b100 %
+1)
+0,
+1-
+b1 2
+b11 4
+bX 7
+bX 8
+b1 ;
+b11 =
+bX @
+bX A
+b1 D
+b11 F
+bX I
+bX J
+b1 M
+b11 O
+#30000
+0!
+0)
+#35000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+bX 9
+bX :
+b100 =
+bX B
+bX C
+b100 F
+bX K
+bX L
+b100 O
+#40000
+0!
+#45000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#50000
+0!
+#55000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#60000
+0!
+#65000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#70000
+0!
+#75000
+1!
+1*
+01
+b1 3
+b0 4
+b1 <
+b0 =
+b1 E
+b0 F
+b1 N
+b0 O
+#80000
+0!
+b1111000 "
+#85000
+1!
+b1111000 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#90000
+0!
+#95000
+1!
+b1111001 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#100000
+0!
+0)
+#105000
+1!
+1)
+0,
+1-
+b11 4
+b1111 5
+b1111 6
+b11 =
+b1111 >
+b1111 ?
+b11 F
+b1111 G
+b1111 H
+b11 O
+#110000
+0!
+0)
+#115000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#120000
+0!
+#125000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#130000
+0!
+#135000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#140000
+0!
+#145000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#150000
+0!
+#155000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#160000
+0!
+b0 "
+#165000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#170000
+0!
+#175000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#180000
+0!
+0)
+#185000
+1!
+1)
+0,
+1-
+b11 4
+b0 5
+b0 6
+b11 =
+b0 >
+b0 ?
+b11 F
+b0 G
+b0 H
+b11 O
+#190000
+0!
+0)
+#195000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#200000
+0!
+#205000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#210000
+0!
+#215000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#220000
+0!
+#225000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#230000
+0!
+#235000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#240000
+0!
+b1111000 "
+0$
+#245000
+1!
+b1111000 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#250000
+0!
+#255000
+1!
+b1111001 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#260000
+0!
+0)
+#265000
+1!
+1)
+0,
+1-
+b11 4
+b1111 5
+b1111 6
+b11 =
+b1111 >
+b1111 ?
+b11 F
+b1111 G
+b1111 H
+b11 O
+#270000
+0!
+0)
+#275000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#280000
+0!
+#285000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#290000
+0!
+#295000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#300000
+0!
+#305000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#310000
+0!
+#315000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#320000
+0!
+b0 "
+#325000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#330000
+0!
+#335000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#340000
+0!
+0)
+#345000
+1!
+1)
+0,
+1-
+b11 4
+b0 5
+b0 6
+b11 =
+b0 >
+b0 ?
+b11 F
+b0 G
+b0 H
+b11 O
+#350000
+0!
+0)
+#355000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#360000
+0!
+#365000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#370000
+0!
+#375000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#380000
+0!
+#385000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#390000
+0!
+#395000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#400000
+0!
+#405000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#410000
+0!
+#415000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#420000
+0!
+0)
+#425000
+1!
+1)
+0,
+1-
+b11 4
+b11 =
+b11 F
+b11 O
+#430000
+0!
+0)
+#435000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#440000
+0!
+#445000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#450000
+0!
+#455000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#460000
+0!
+#465000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#470000
+0!
+#475000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#480000
+0!
+#485000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#490000
+0!
+#495000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#500000
+0!
+0)
+#505000
+1!
+1)
+0,
+1-
+b11 4
+b11 =
+b11 F
+b11 O
+#510000
+0!
+0)
+#515000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#520000
+0!
+#525000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#530000
+0!
+#535000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#540000
+0!
+#545000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#550000
+0!
+#555000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#560000
+0!
+#565000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#570000
+0!
+#575000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#580000
+0!
+0)
+#585000
+1!
+1)
+0,
+1-
+b11 4
+b11 =
+b11 F
+b11 O
+#590000
+0!
+0)
+#595000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#600000
+0!
+#605000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#610000
+0!
+#615000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#620000
+0!
+#625000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#630000
+0!
+#635000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#640000
+0!
+#645000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#650000
+0!
+#655000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#660000
+0!
+0)
+#665000
+1!
+1)
+0,
+1-
+b11 4
+b11 =
+b11 F
+b11 O
+#670000
+0!
+0)
+#675000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#680000
+0!
+#685000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#690000
+0!
+#695000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#700000
+0!
+#705000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#710000
+0!
+#715000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#720000
+0!
+#725000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#730000
+0!
+#735000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#740000
+0!
+0)
+#745000
+1!
+1)
+0,
+1-
+b11 4
+b11 =
+b11 F
+b11 O
+#750000
+0!
+0)
+#755000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#760000
+0!
+#765000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#770000
+0!
+#775000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#780000
+0!
+#785000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#790000
+0!
+#795000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#800000
+0!
+#805000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#810000
+0!
+#815000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#820000
+0!
+0)
+#825000
+1!
+1)
+0,
+1-
+b11 4
+b11 =
+b11 F
+b11 O
+#830000
+0!
+0)
+#835000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#840000
+0!
+#845000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#850000
+0!
+#855000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#860000
+0!
+#865000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#870000
+0!
+#875000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#880000
+0!
+#885000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#890000
+0!
+#895000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#900000
+0!
+0)
+#905000
+1!
+1)
+0,
+1-
+b11 4
+b11 =
+b11 F
+b11 O
+#910000
+0!
+0)
+#915000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#920000
+0!
+#925000
+1!
+0.
+1/
+b101 4
+b101 =
+b101 F
+b101 O
+#930000
+0!
+#935000
+1!
+0/
+10
+b110 4
+b110 =
+b110 F
+b110 O
+#940000
+0!
+#945000
+1!
+00
+11
+b111 4
+b111 =
+b111 F
+b111 O
+#950000
+0!
+#955000
+1!
+1*
+01
+b0 4
+b0 =
+b0 F
+b0 O
+#960000
+0!
+#965000
+1!
+b0 #
+0*
+1+
+b1 4
+b1 =
+b1 F
+b1 O
+#970000
+0!
+#975000
+1!
+b1 #
+b100 %
+1(
+1)
+0+
+1,
+b10 4
+b10 =
+b10 F
+b10 O
+#980000
+0!
+0)
+#985000
+1!
+1)
+0,
+1-
+b11 4
+b11 =
+b11 F
+b11 O
+#990000
+0!
+0)
+#995000
+1!
+bZ %
+0(
+0-
+1.
+b100 4
+b100 =
+b100 F
+b100 O
+#1000000
