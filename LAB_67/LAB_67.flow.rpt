@@ -1,5 +1,5 @@
 Flow report for LAB_67
-Thu Dec 20 01:44:23 2018
+Thu Dec 20 03:34:44 2018
 Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
 
 
@@ -38,17 +38,17 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------+
 ; Flow Summary                                                                 ;
 +-------------------------------+----------------------------------------------+
-; Flow Status                   ; Successful - Thu Dec 20 01:44:23 2018        ;
+; Flow Status                   ; Successful - Thu Dec 20 03:34:44 2018        ;
 ; Quartus II Version            ; 9.1 Build 350 03/24/2010 SP 2 SJ Web Edition ;
 ; Revision Name                 ; LAB_67                                       ;
 ; Top-level Entity Name         ; LAB_67                                       ;
 ; Family                        ; Stratix II                                   ;
 ; Met timing requirements       ; No                                           ;
 ; Logic utilization             ; 2 %                                          ;
-;     Combinational ALUTs       ; 136 / 12,480 ( 1 % )                         ;
-;     Dedicated logic registers ; 134 / 12,480 ( 1 % )                         ;
-; Total registers               ; 134                                          ;
-; Total pins                    ; 35 / 343 ( 10 % )                            ;
+;     Combinational ALUTs       ; 154 / 12,480 ( 1 % )                         ;
+;     Dedicated logic registers ; 135 / 12,480 ( 1 % )                         ;
+; Total registers               ; 135                                          ;
+; Total pins                    ; 39 / 343 ( 11 % )                            ;
 ; Total virtual pins            ; 0                                            ;
 ; Total block memory bits       ; 512 / 419,328 ( < 1 % )                      ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                               ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/20/2018 01:44:11 ;
+; Start date & time ; 12/20/2018 03:34:32 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; LAB_67              ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                                                          ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+----------------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 128454787731403.154525945112276                                ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 128454787731403.154526607105128                                ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_COUNTER                                                    ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_DECODE                                                     ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_COUNTER                                                    ; --            ; --          ; --             ;
@@ -85,6 +85,12 @@ applicable agreement for further details.
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                                                     ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                                                     ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_BUSTRI                                                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                                                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                                                     ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_BUSTRI                                                     ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                                            ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.1                                                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                                            ; --            ; --          ; --             ;
 ; IP_TOOL_VERSION                    ; 9.1                                                            ; --            ; --          ; --             ;
@@ -141,6 +147,21 @@ applicable agreement for further details.
 ; MISC_FILE                          ; lpm_bustri7_inst.tdf                                           ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_bustri7.inc                                                ; --            ; --          ; --             ;
 ; MISC_FILE                          ; lpm_bustri7.cmp                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri8.tdf                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri8.bsf                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri8_inst.tdf                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri8.inc                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri8.cmp                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri9.tdf                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri9.bsf                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri9_inst.tdf                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri9.inc                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri9.cmp                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri10.tdf                                               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri10.bsf                                               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri10_inst.tdf                                          ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri10.inc                                               ; --            ; --          ; --             ;
+; MISC_FILE                          ; lpm_bustri10.cmp                                               ; --            ; --          ; --             ;
 ; PARTITION_COLOR                    ; 16764057                                                       ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE             ; SOURCE                                                         ; --            ; --          ; Top            ;
 ; SMART_RECOMPILE                    ; On                                                             ; Off           ; --          ; --             ;
@@ -153,11 +174,11 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:03     ; 1.0                     ; 243 MB              ; 00:00:04                           ;
-; Fitter                  ; 00:00:03     ; 1.0                     ; 266 MB              ; 00:00:04                           ;
-; Assembler               ; 00:00:02     ; 1.0                     ; 241 MB              ; 00:00:02                           ;
-; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 172 MB              ; 00:00:00                           ;
-; Total                   ; 00:00:08     ; --                      ; --                  ; 00:00:10                           ;
+; Analysis & Synthesis    ; 00:00:04     ; 1.0                     ; 243 MB              ; 00:00:05                           ;
+; Fitter                  ; 00:00:04     ; 1.0                     ; 267 MB              ; 00:00:04                           ;
+; Assembler               ; 00:00:01     ; 1.0                     ; 241 MB              ; 00:00:02                           ;
+; Classic Timing Analyzer ; 00:00:01     ; 1.0                     ; 172 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:10     ; --                      ; --                  ; 00:00:11                           ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

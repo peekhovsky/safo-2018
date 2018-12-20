@@ -187,9 +187,9 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 301536;
+		ZEND = 297113;
 		NUMERATOR = 1159;
-		DENOMINATOR = 301536;
+		DENOMINATOR = 297113;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -513,7 +513,7 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs";
+		SIGNAL = "cache:inst|cache_block:inst|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
 		INDEX = 39;
 		FORMAT = T;
 		SCALE = 1;
@@ -521,7 +521,7 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[3]";
+		SIGNAL = "cache:inst|cache_block:inst|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
 		INDEX = 40;
 		FORMAT = E;
 		SCALE = 1;
@@ -529,728 +529,8 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 41;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 42;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 43;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 44;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 45;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 46;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 47;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 48;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 49;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 50;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 51;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 52;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 53;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 54;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 55;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 56;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 57;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 58;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 59;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 60;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 61;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 62;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 63;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 64;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 65;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 66;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 67;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 68;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 69;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 70;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 71;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 72;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 73;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 74;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 75;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 76;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 77;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 78;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 79;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 80;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 81;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 82;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 83;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 84;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 85;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 86;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 87;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 88;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 89;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 90;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 91;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 92;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 93;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 94;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 95;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 96;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 97;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 98;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 99;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 100;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 101;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 102;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag0|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 103;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 104;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 105;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 106;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 107;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:tag1|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 108;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 109;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 110;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 111;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 112;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word0|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 113;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 114;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 115;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 116;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 117;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 118;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 119;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 120;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 121;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 122;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word2|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 123;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs";
-		INDEX = 124;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[3]";
-		INDEX = 125;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[2]";
-		INDEX = 126;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[1]";
-		INDEX = 127;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[0]";
-		INDEX = 128;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
-		INDEX = 129;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
-		INDEX = 130;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "cache:inst|cache_block:inst|lpm_compare0:comp00|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
-		INDEX = 131;
+		INDEX = 41;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1258,7 +538,7 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 	}
 	LINE{
 		SIGNAL = "cache:inst|cache_block:inst|lpm_compare0:comp00|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
-		INDEX = 132;
+		INDEX = 42;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1266,7 +546,7 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 	}
 	LINE{
 		SIGNAL = "cache:inst|cache_block:inst|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q";
-		INDEX = 133;
+		INDEX = 43;
 		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1274,7 +554,7 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 	}
 	LINE{
 		SIGNAL = "cache:inst|cache_block:inst|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[2]";
-		INDEX = 134;
+		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1282,7 +562,7 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 	}
 	LINE{
 		SIGNAL = "cache:inst|cache_block:inst|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[1]";
-		INDEX = 135;
+		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1290,199 +570,39 @@ VECTOR("C:/Users/Rostik/Documents/GitHub/safooc-2018/LAB_67/LAB_67.vwf")
 	}
 	LINE{
 		SIGNAL = "cache:inst|cache_block:inst|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[0]";
-		INDEX = 136;
+		INDEX = 46;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
-		INDEX = 137;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
-		INDEX = 138;
+		SIGNAL = "enable_read0";
+		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_compare0:comp00|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
-		INDEX = 139;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_compare0:comp00|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
-		INDEX = 140;
+		SIGNAL = "enable_read1";
+		INDEX = 48;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q";
-		INDEX = 141;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[2]";
-		INDEX = 142;
+		SIGNAL = "enable_read2";
+		INDEX = 49;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[1]";
-		INDEX = 143;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst21|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[0]";
-		INDEX = 144;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
-		INDEX = 145;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
-		INDEX = 146;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_compare0:comp00|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
-		INDEX = 147;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_compare0:comp00|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
-		INDEX = 148;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q";
-		INDEX = 149;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[2]";
-		INDEX = 150;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[1]";
-		INDEX = 151;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst22|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[0]";
-		INDEX = 152;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
-		INDEX = 153;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_compare0:comp0|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
-		INDEX = 154;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_compare0:comp00|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a";
-		INDEX = 155;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_compare0:comp00|lpm_compare:lpm_compare_component|cmpr_3gi:auto_generated|aeb_output_dffe0a[0]";
-		INDEX = 156;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q";
-		INDEX = 157;
-		FORMAT = T;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[2]";
-		INDEX = 158;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[1]";
-		INDEX = 159;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "cache:inst|cache_block:inst23|lpm_counter4:inst11|lpm_counter:lpm_counter_component|cntr_plh:auto_generated|safe_q[0]";
-		INDEX = 160;
+		SIGNAL = "enable_read3";
+		INDEX = 50;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

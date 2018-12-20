@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 3.357 ns
-From           : request_address[1]
-To             : lpm_counter1:inst4|lpm_counter:lpm_counter_component|cntr_m9j:auto_generated|safe_q[1]
+Actual Time    : 3.145 ns
+From           : request_address[0]
+To             : lpm_counter1:inst4|lpm_counter:lpm_counter_component|cntr_m9j:auto_generated|safe_q[0]
 From Clock     : --
 To Clock       : clk
 Failed Paths   : 0
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 16.242 ns
-From           : lpm_rom0:inst45|altsyncram:altsyncram_component|altsyncram_7881:auto_generated|q_a[1]
-To             : output_data_from_cache[1]
+Actual Time    : 13.890 ns
+From           : cache:inst|cache_block:inst9|isEmpty
+To             : hit
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
@@ -25,7 +25,7 @@ Failed Paths   : 0
 Type           : Worst-case tpd
 Slack          : N/A
 Required Time  : None
-Actual Time    : 6.036 ns
+Actual Time    : 6.441 ns
 From           : clk
 To             : pin_name
 From Clock     : --
@@ -35,9 +35,9 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : -2.555 ns
-From           : request_address[5]
-To             : lpm_counter1:inst4|lpm_counter:lpm_counter_component|cntr_m9j:auto_generated|safe_q[5]
+Actual Time    : -2.143 ns
+From           : request_address[2]
+To             : lpm_counter1:inst4|lpm_counter:lpm_counter_component|cntr_m9j:auto_generated|safe_q[2]
 From Clock     : --
 To Clock       : clk
 Failed Paths   : 0
@@ -45,9 +45,9 @@ Failed Paths   : 0
 Type           : Clock Setup: 'clk'
 Slack          : N/A
 Required Time  : None
-Actual Time    : 95.58 MHz ( period = 10.462 ns )
-From           : lpm_rom0:inst45|altsyncram:altsyncram_component|altsyncram_7881:auto_generated|q_a[2]
-To             : cache:inst|cache_block:inst|lpm_dff0:word3|lpm_ff:lpm_ff_component|dffs[2]
+Actual Time    : 113.70 MHz ( period = 8.795 ns )
+From           : cache:inst|cache_block:inst11|isEmpty
+To             : cache:inst|cache_block:inst11|lpm_dff0:word1|lpm_ff:lpm_ff_component|dffs[0]
 From Clock     : clk
 To Clock       : clk
 Failed Paths   : 0
@@ -60,7 +60,7 @@ From           : lpm_counter1:inst4|lpm_counter:lpm_counter_component|cntr_m9j:a
 To             : lpm_rom0:inst45|altsyncram:altsyncram_component|altsyncram_7881:auto_generated|ram_block1a0~porta_address_reg0
 From Clock     : clk
 To Clock       : clk
-Failed Paths   : 101
+Failed Paths   : 224
 
 Type           : Total number of failed paths
 Slack          : 
@@ -70,7 +70,7 @@ From           :
 To             : 
 From Clock     : 
 To Clock       : 
-Failed Paths   : 101
+Failed Paths   : 224
 
 --------------------------------------------------------------------------------------
 

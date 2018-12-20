@@ -1,27 +1,27 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="LAB_67">
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst23|lpm_compare0:comp00|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst23|lpm_compare0:comp0|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst23|lpm_counter4:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_plh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|lpm_counter1:inst4|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_m9j.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|lpm_counter4:inst9|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_plh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst|lpm_decode5:inst12|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst21|lpm_compare0:comp00|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst21|lpm_compare0:comp0|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst21|lpm_counter4:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_plh.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst23|lpm_decode5:inst12|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst10|lpm_decode5:inst12|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst9|lpm_decode5:inst12|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|lpm_constant0:inst36|lpm_constant:lpm_constant_component" CBX_FILE_NAME="lpm_constant_3e6.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|lpm_rom0:inst45|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_7881.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst22|lpm_compare0:comp00|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst22|lpm_compare0:comp0|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst22|lpm_counter4:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_plh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst11|lpm_decode5:inst12|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst|lpm_compare0:comp00|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst|lpm_compare0:comp0|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst|lpm_counter4:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_plh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|lpm_decode0:inst17|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_p7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst21|lpm_decode5:inst12|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst22|lpm_decode5:inst12|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst10|lpm_compare0:comp00|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst10|lpm_compare0:comp0|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst10|lpm_counter4:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_plh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst9|lpm_compare0:comp00|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst9|lpm_compare0:comp0|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst9|lpm_counter4:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_plh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst11|lpm_compare0:comp00|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst11|lpm_compare0:comp0|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_3gi.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|cache:inst|cache_block:inst11|lpm_counter4:inst11|lpm_counter:lpm_counter_component" CBX_FILE_NAME="cntr_plh.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|LAB_67|lpm_decode5:inst10|lpm_decode:lpm_decode_component" CBX_FILE_NAME="decode_u7f.tdf"/>
 	</PROJECT>
 </LOG_ROOT>
